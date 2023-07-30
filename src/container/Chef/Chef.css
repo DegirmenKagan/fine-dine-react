@@ -12,6 +12,10 @@
   align-items: flex-end;
 }
 
+.app__chef-content_quote p {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 .app__chef-content_quote img {
   width: 47px;
   height: 40px;
