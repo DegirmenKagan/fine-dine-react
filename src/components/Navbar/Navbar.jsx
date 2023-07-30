@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./Navbar.css";
+import { FaGithubSquare } from "react-icons/fa";
 
 import images from "../../constants/images";
 
@@ -10,9 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app logo" />
-      </div>
+      <h3 className="app__navbar-title">Fine Dine Restaurant</h3>
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="#home">Home</a>
@@ -39,6 +38,13 @@ const Navbar = () => {
           Book Table
         </a>
       </div>
+      <FaGithubSquare
+        className="app__navbar-gitIcon"
+        size={25}
+        onClick={() =>
+          window.open("https://github.com/DegirmenKagan/fine-dine-react")
+        }
+      />
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"

@@ -17,6 +17,12 @@
   width: 150px;
 }
 
+.app__navbar-title {
+  color: var(--color-white);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .app__navbar-links {
   flex: 1;
   display: flex;
@@ -56,6 +62,12 @@
   background-color: var(--color-grey);
 }
 
+.app__navbar-gitIcon {
+  color: var(--color-white);
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
 .app__navbar-smallscreen {
   display: none;
 }
@@ -93,6 +105,7 @@
   font-style: 2rem;
   text-align: center;
   font-family: var(--font-base);
+  font-size: 3vh;
 }
 
 .app__navbar-smallscreen-links li:hover {
