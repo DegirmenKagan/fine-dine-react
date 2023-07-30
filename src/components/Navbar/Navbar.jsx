@@ -11,7 +11,16 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <h3 className="app__navbar-title">Fine Dine Restaurant</h3>
+      <div className="app__navbar-logo">
+        <h3 className="app__navbar-title">Fine Dine Restaurant</h3>
+        <FaGithubSquare
+          className="app__navbar-gitIcon"
+          size={25}
+          onClick={() =>
+            window.open("https://github.com/DegirmenKagan/fine-dine-react")
+          }
+        />
+      </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="#home">Home</a>
@@ -38,13 +47,7 @@ const Navbar = () => {
           Book Table
         </a>
       </div>
-      <FaGithubSquare
-        className="app__navbar-gitIcon"
-        size={25}
-        onClick={() =>
-          window.open("https://github.com/DegirmenKagan/fine-dine-react")
-        }
-      />
+
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"
