@@ -17,11 +17,11 @@
 }
 
 .app__menuitem-name {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .app__menuitem-dash {
-  width: 90px;
+  flex: 1;
   height: 1px;
   background: var(--color-golden);
   margin: 0 1rem;
