@@ -4,8 +4,6 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./Navbar.css";
 import { FaGithubSquare } from "react-icons/fa";
 
-import images from "../../constants/images";
-
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 

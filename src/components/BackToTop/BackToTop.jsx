@@ -24,12 +24,9 @@ const BackToTop = () => {
 
   return (
     <div className="app__backtotop_icons">
-      {/* <a href="#home"> */}
       {scrollTop !== 0 && (
         <FaArrowAltCircleUp id="topBtn" onClick={toTopFunc} />
       )}
-
-      {/* </a> */}
     </div>
   );
 };
