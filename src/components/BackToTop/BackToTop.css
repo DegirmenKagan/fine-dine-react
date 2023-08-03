@@ -1,0 +1,10 @@
+.app__backtotop_icons svg {
+  color: var(--color-golden);
+  margin: 0.5rem;
+  font-size: 40px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 2;
+}
