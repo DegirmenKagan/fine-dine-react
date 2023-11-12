@@ -23,7 +23,7 @@ const AboutUs = () => (
         </p>
 
         <button type="button" className="custom__button">
-          Know More
+          <a href="#gallery">Know More</a>
         </button>
       </div>
       <div className="app__aboutus-content_knife flex__center">
@@ -41,7 +41,7 @@ const AboutUs = () => (
         </p>
 
         <button type="button" className="custom__button">
-          Know More
+          <a href="#chef">Know More</a>
         </button>
       </div>
     </div>
